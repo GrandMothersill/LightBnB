@@ -1,8 +1,9 @@
-const properties = require('./json/properties.json');
-const users = require('./json/users.json');
-const { Pool } = require('pg');
-const { user } = require('pg/lib/defaults');
+// const properties = require('./json/properties.json');
+// const users = require('./json/users.json');
+// const { user } = require('pg/lib/defaults');
 /// Users
+
+const { Pool } = require('pg');
 
 const pool = new Pool({
   user: 'vagrant',
